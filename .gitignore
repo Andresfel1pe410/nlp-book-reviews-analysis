@@ -1,0 +1,36 @@
+# Datasets y archivos de datos pesados
+*.tsv
+*.csv
+*.zip
+*.tar.gz
+*.parquet
+data/
+
+# Material del diplomado (no público)
+MLDS_Avanzado_2026.pdf
+
+# Entornos virtuales y Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Modelos y artefactos locales
+*.bin
+*.pt
+*.pth
+*.model
+models/
+outputs/
+
+# Sistema operativo / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
